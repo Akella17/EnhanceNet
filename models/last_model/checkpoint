@@ -1,0 +1,2 @@
+model_checkpoint_path: "/content/drive/App/EnhanceNet/models/model.ckpt"
+all_model_checkpoint_paths: "/content/drive/App/EnhanceNet/models/model.ckpt"
