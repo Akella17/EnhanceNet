@@ -4,7 +4,7 @@ This is an implementation of the paper ["EnhanceNet: Single Image Super-Resoluti
 
 ### Model Architecture
 
-![](https://github.com/Akella17/EnhanceNet/raw/master/data/enhancenet_architecture.png)
+![](https://github.com/Akella17/EnhanceNet/raw/master/data/enhancenet_architecture.png | width = 100)
 
 Fully convolutional network architecture for 4x super-resolution which only learns the residual between the bicubic interpolation of the input and the ground truth. USes 3×3 convolution kernels, 10 residual blocks and RGB images (c = 3).
 
