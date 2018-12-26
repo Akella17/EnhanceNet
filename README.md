@@ -8,5 +8,5 @@ This is an implementation of the paper ["EnhanceNet: Single Image Super-Resoluti
 
 Fully convolutional network architecture for 4x super-resolution which only learns the residual between the bicubic interpolation of the input and the ground truth. USes 3×3 convolution kernels, 10 residual blocks and RGB images (c = 3).
 
-### Training Objective
-Perceptual Loss and  automated texture synthesis
+### Training Settings
+Adversarial training with an objective automated texture synthesis and perceptual loss.
